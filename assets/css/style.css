@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Lato", sans-serif;
@@ -27,7 +28,7 @@ h3 {
   font-size: 36px;
 }
 h4 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   margin-top: 20px;
 }
@@ -48,6 +49,7 @@ img {
   border: 0;
   font-size: 18px;
   font-weight: 500;
+  margin-top: 30px;
 }
 .section-header {
   margin-bottom: 50px;
@@ -59,6 +61,9 @@ img {
 .cmn-description {
   max-width: 580px;
   margin: auto;
+}
+.text-primary {
+  color: #e55473;
 }
 /* Hero section start */
 .hero-section {
@@ -73,8 +78,8 @@ img {
 .hero-content {
   max-width: 600px;
 }
-.hero-description {
-  margin: 20px 0;
+.hero-title {
+  margin-bottom: 30px;
 }
 .hero-thumb {
   margin-top: 50px;
@@ -101,6 +106,7 @@ img {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   padding: 100px 50px 0 50px;
+  height: 100%;
 }
 .featured-item .img-box img {
   width: 310px;
@@ -108,9 +114,78 @@ img {
 }
 .featured-item .img-box2 {
   background: rgba(5, 151, 160, 0.15);
-  padding-bottom: 90qpx;
 }
 .featured-item .img-box3 {
   background: rgba(71, 125, 17, 0.15);
 }
 /* Featured Flowers section end */
+/* Service section start */
+.service-section {
+  padding: 100px 0;
+}
+.service-container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-between;
+}
+.service-item {
+  text-align: center;
+}
+#service-section {
+  padding: 50px 80px;
+}
+/* Service section end */
+
+/* Hot deal section start */
+.hot-deal-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+}
+.hot-deal-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hot-deal-content {
+  text-align: center;
+}
+/* Hot deal section end */
+
+/* Instagram section start */
+.instagram-section {
+  padding: 100px 0;
+}
+.instagram-container {
+  display: flex;
+  gap: 15px;
+}
+/* Instagram section end */
+
+/* Newsletter section start */
+.newsletter-section {
+  padding-bottom: 100px;
+}
+.newsletter-container {
+  border-radius: 8px;
+  background: url("../img/rectangle9.png");
+  background-position: center;
+  background-size: cover;
+  padding: 100px 200px;
+}
+.newsletter-form {
+  display: flex;
+  align-items: center;
+}
+.newsletter-container input[type="text"] {
+  padding: 20px 43px;
+  width: 100%;
+  border-radius: 8px;
+  border: 0;
+}
+.newsletter-container .primary-btn {
+  margin-top: 0;
+  margin-left: 15px;
+}
+/* Newsletter section end */

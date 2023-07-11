@@ -1,14 +1,21 @@
 /* Typography */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
 /* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  color: #272727;
 }
 
 h1,
@@ -18,28 +25,35 @@ h4 {
   color: #272727;
   font-weight: 800;
 }
+
 h1 {
   font-size: 68px;
 }
+
 h2 {
   font-size: 46px;
 }
+
 h3 {
   font-size: 36px;
 }
+
 h4 {
   font-size: 22px;
   font-weight: 700;
   margin-top: 20px;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 .container {
   max-width: 1320px;
   margin: 0 auto;
 }
+
 .primary-btn {
   display: inline-flex;
   padding: 20px 43px;
@@ -51,39 +65,49 @@ img {
   font-weight: 500;
   margin-top: 30px;
 }
+
 .section-header {
   margin-bottom: 50px;
   text-align: center;
 }
+
 .section-title {
   margin-bottom: 20px;
 }
+
 .cmn-description {
   max-width: 580px;
   margin: auto;
 }
+
 .text-primary {
   color: #e55473;
 }
+
 /* Hero section start */
 .hero-section {
   background: rgba(229, 84, 115, 0.1);
 }
+
 .hero-container {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
 }
+
 .hero-content {
   max-width: 600px;
 }
+
 .hero-title {
   margin-bottom: 30px;
 }
+
 .hero-thumb {
   margin-top: 50px;
 }
+
 .hero-thumb img {
   width: 550px;
 }
@@ -94,47 +118,61 @@ img {
 .featured-flowers-section {
   padding: 100px 0;
 }
+
 .featured-container {
   display: flex;
   gap: 20px;
+  justify-content: space-between;
 }
+
 .featured-item {
   text-align: center;
-  width: 33.3333%;
 }
+
 .featured-item .img-box {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   padding: 100px 50px 0 50px;
   height: 100%;
+  display: flex;
+  align-items: end;
 }
+
 .featured-item .img-box img {
   width: 310px;
   max-height: 400px;
 }
+
 .featured-item .img-box2 {
   background: rgba(5, 151, 160, 0.15);
+  padding-bottom: 50px;
 }
+
 .featured-item .img-box3 {
   background: rgba(71, 125, 17, 0.15);
 }
+
 /* Featured Flowers section end */
 /* Service section start */
 .service-section {
   padding: 100px 0;
 }
+
 .service-container {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   display: flex;
   justify-content: space-between;
 }
+
 .service-item {
   text-align: center;
 }
+
 #service-section {
   padding: 50px 80px;
 }
+
 /* Service section end */
 
 /* Hot deal section start */
@@ -143,30 +181,36 @@ img {
   background: rgba(229, 84, 115, 0.05);
   padding: 100px 0;
 }
+
 .hot-deal-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .hot-deal-content {
   text-align: center;
 }
+
 /* Hot deal section end */
 
 /* Instagram section start */
 .instagram-section {
   padding: 100px 0;
 }
+
 .instagram-container {
   display: flex;
   gap: 15px;
 }
+
 /* Instagram section end */
 
 /* Newsletter section start */
 .newsletter-section {
   padding-bottom: 100px;
 }
+
 .newsletter-container {
   border-radius: 8px;
   background: url("../img/rectangle9.png");
@@ -174,18 +218,46 @@ img {
   background-size: cover;
   padding: 100px 200px;
 }
+
 .newsletter-form {
   display: flex;
   align-items: center;
 }
+
 .newsletter-container input[type="text"] {
   padding: 20px 43px;
   width: 100%;
   border-radius: 8px;
   border: 0;
 }
+
 .newsletter-container .primary-btn {
   margin-top: 0;
   margin-left: 15px;
 }
+
 /* Newsletter section end */
+
+/* Footer section start  */
+footer {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #111010;
+  color: white;
+}
+
+footer .section-title {
+  color: white;
+}
+
+footer .cmn-description {
+  color: rgba(255, 255, 255, 0.90);
+}
+footer .copyright{
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 16px;
+  margin-top: 30px;
+
+}
+
+/* Footer section end */
